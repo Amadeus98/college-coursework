@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	
+    <!--
+    	Created by Emmanuel Marcha
+        CS445: Homework 2 Part 4
+        Spring 2013
+    --> 
+    
+    <meta charset="UTF-8">
+	<title>problem-4</title>
+	<link href="styes.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="wallet-app.js"></script>
+</head>
+
+<body>
+
+	<div id="header">
+    	<h1>Wallet App</h1>
+    </div>
+    <div id="content">
+    	<div class="coin-info">
+        	<h3>Add a coin to your wallet:</h3>
+        	<form name="coinForm" id="coinForm">
+            	<label>Coin Name: </label>
+                <input type="text" name="coinName" />
+                <label>Coin Value: </label>
+                <input type="text" name="coinValue" />
+                <input type="button" value="Add Coin" onClick="addCoin()" /> 
+            </form>
+        </div>
+        <div class="wallet-info">
+        	<h3>Current coins in your wallet:</h3>
+            <div id="wallet"></div>
+        </div>
+    </div>
+    <div id="footer">
+   		<p>Emmanuel Marcha - CS445: Homework 2 Part 4 - Spring 2013</p>
+    </div>
+
+</body>
+</html>
